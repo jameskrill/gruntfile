@@ -9,8 +9,15 @@ It includes
 * grunt-contrib-concat
 * grunt-contrib-uglify
 
-It registers a ```build``` task which calls: ```sass, concat, uglify```
+It registers a `build` task which calls: `sass, concat, uglify`
 
-The ```default``` task calls ```watch```
+The `default` task calls `watch`
 
 It also uses livereload and watches JS, SCSS and PHP files.
+
+## Getting Started
+Clone this repo locally and then run 
+
+```shell
+npm install
+```
